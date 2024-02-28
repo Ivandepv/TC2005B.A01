@@ -1,0 +1,114 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.logo, .quality-img, .article-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del Header */
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    max-width: 10%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation .nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-self: center;
+    margin: 0 20px;
+}
+
+.navigation .nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.icons i {
+    margin-right: 10px;
+}
+
+
+/* Estilos del Main */
+.main-content h1, .main-content h2 {
+    color: #333;
+    text-align: start;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quality{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quality-item{
+    max-width: 40%;
+}
+
+.article-item{
+    max-width: 20%;
+
+}
+
+.article-item img{
+    min-height: 70%;
+    width: 100%;
+    object-fit: cover;
+
+}
+/* Estilos del Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer .footer-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-list li a:hover {
+    text-decoration: underline;
+}
